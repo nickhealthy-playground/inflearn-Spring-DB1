@@ -13,7 +13,7 @@ import java.sql.SQLException;
 
 /**
  * 트랜잭션 - 트랜잭션 매니저
- * + 트랜잭션 템플릿 콜백 패턴 적용
+ * + 트랜잭션 템플릿 콜백 패턴 적용 -> 반복적인 코드 제거(트랜잭션 시작, 커밋, 롤백 등)
  */
 @Slf4j
 public class MemberService3_2 {

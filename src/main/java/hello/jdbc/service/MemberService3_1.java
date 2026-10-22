@@ -11,7 +11,9 @@ import org.springframework.transaction.support.DefaultTransactionDefinition;
 import java.sql.SQLException;
 
 /**
- * 트랜잭션 - 트랜잭션 매니저
+ * 트랜잭션 - 트랜잭션 매니저(트랜잭션 추상화 -> 특정 데이터 접근 기술에 의존X)
+ * - 추상화(인터페이스)를 통해 데이터 접근 기술에 대한 의존성 최소화
+ * - 데이터 접근 기술 변경시(ex, JDBC -> JPA)에 대한 구현체(DI)만 변경하면 됨
  */
 @Slf4j
 @RequiredArgsConstructor

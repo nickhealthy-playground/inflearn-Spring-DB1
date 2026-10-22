@@ -11,7 +11,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
- * 트랜잭션 - 파라미터 연동, 풀을 고려한 종료
+ * 트랜잭션 적용(JDBC 데이터 접근 기술 의존)- 파라미터 연동, 풀을 고려한 종료
  */
 @Slf4j
 @RequiredArgsConstructor
